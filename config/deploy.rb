@@ -9,7 +9,7 @@ role :web, domain
 role :db,  domain, :primary => true
 
 set :scm, :git
-set :repository, 'git@github.com:stelligent/sample_app.git'
+set :repository, 'git@github.com:anthonyd-ness/sample_app.git'
 set :branch, 'master'
 set :deploy_via, :remote_cache
 
